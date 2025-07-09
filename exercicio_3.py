@@ -9,3 +9,8 @@ Exemplo de uso:
 >>> 100
 """
 
+def calcular_media(numeros):
+    if len(numeros) == 0:
+        return 0 
+    return sum(numeros) / len(numeros)
+print(calcular_media([0, 100, 200]))
